@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sonali_Technical Frontend Support using Html,Css,Javascript</title>
+  </head>
+  <body>
+    <div class="main-wrapper">
+    <section>
+    <h2 class="heading">----- YAY! It'S BOGO Hello-----</h2>
+
+    <div class="container">
+      <div class="unit-option">
+        <input type="radio" name="unit" value="Unit 1" data-price="10" />
+        <div class="unit-info">
+          <div class="top-row">
+            <b>1 Unit <span class="discount">10% Off</span></b>
+            <b class="price">$10.00 USD</b>
+          </div>
+          <p class="subtext">Standard Price</p>
+        </div>
+      </div>
+    </div>
+    <br />
+
+    <div class="container">
+      <div class="unit-option">
+        <input type="radio" name="unit" value="Unit 2" data-price="18" />
+        <div class="details">
+          <span class="badge">MOST POPULAR</span>
+          <b>2 Unit <span class="discount">20% Off</span></b>
+        </div>
+        <div class="price"><b>$18.00 USD</b></div>
+      </div>
+      <div>
+        <!-- <b>$18.00USD</b> -->
+      </div>
+      <div class="row">
+        <div class="selection">
+          <div>
+            Size<br />
+            #1
+            <select id="size" name="size">
+              <option value="S">S</option>
+              <option value="m">M</option>
+              <option value="l">L</option>
+              <option value="xl">XL</option>
+            </select>
+          </div>
+        </div>
+        <div class="selection">
+          <div>
+            Colour<br />
+            <select id="color-dropdown">
+              <option value="colour">colour</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="selection">
+          <br />
+          #2
+          <select id="size" name="size">
+            <option value="S">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+          </select>
+        </div>
+        <div class="selection">
+          <br />
+          <select id="color-dropdown">
+            <option value="colour">colour</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="container">
+      <div class="unit-option">
+        <input type="radio" name="unit" value="Unit 3" data-price="24" />
+        <div class="unit-info">
+          <div class="top-row">
+            <b>3 Unit <span class="discount">30% Off</span></b>
+            <b class="price">$24.00 USD</b>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="container" id="free">
+      <div class="delivery-total">
+        <span class="free-delivery">Free Delivery</span>
+        <span class="total" id="totalBox">Total: $00.00 USD</span>
+      </div>
+    </div>
+
+    
+      <button class="add-to-cart-btn">+ Add To Cart</button>
+  
+    <div class="message" id="message"></div>
+    <script src="script.js"></script>
+    </section>
+    </div>
+  </body>
+</html>
